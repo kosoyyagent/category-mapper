@@ -11,6 +11,8 @@ Given a supplier price list (`csv`/`xlsx`) and the site category tree
 |---|---|---|---|
 | Кабели и переходники | Электроника / Кабели и переходники | 0.41 | … |
 
+![Sample mapping output](docs/screenshot.png)
+
 - **Fuzzy matching** — normalization (lowercase, `ё`→`е`, punctuation
   cleanup) + token overlap and `difflib` scoring, with a synonym table
   for common marketplace vocabulary (extends `SYNONYMS` in code).
